@@ -1,0 +1,24 @@
+/* V4.1.3: desktop is selected by measured content width, not a fixed breakpoint. */
+.v2 header[data-nav-layout=desktop] .header-inner,.v2 .nav-fit-probe .header-inner{width:94%;max-width:1560px;gap:16px}
+.v2 header[data-nav-layout=desktop] .header-inner>.logo{width:140px;flex:0 0 140px}
+.v2 header[data-nav-layout=desktop] .header-inner>.logo strong{font-size:32px}
+.v2 header[data-nav-layout=desktop] .header-inner>.logo svg{height:24px}
+.v2 header[data-nav-layout=desktop] .header-inner>.logo>span{font-size:8px}
+.v2 header[data-nav-layout=desktop] .header-inner nav{display:flex;position:static;flex-direction:row;align-items:center;gap:17px;padding:0;background:transparent;box-shadow:none;max-height:none;overflow:visible;margin:0;flex-shrink:0}
+.v2 header[data-nav-layout=desktop] .header-inner nav a{font-size:12px;padding:0;border:0;white-space:nowrap;min-height:44px}
+.v2 header[data-nav-layout=desktop] .header-inner nav .staff-login-mobile{display:none}
+.v2 header[data-nav-layout=desktop] .menu-toggle{display:none}
+.v2 header[data-nav-layout=desktop] .header-phone{margin:0 0 0 auto;font-size:15px;gap:7px;white-space:nowrap;display:flex;width:auto;padding:0;flex-shrink:0}
+.v2 header[data-nav-layout=desktop] .header-phone span{display:inline}
+.v2 header[data-nav-layout=desktop] .header-cta{margin:0;font-size:10px;padding:12px 14px;white-space:nowrap;flex-shrink:0}
+.v2 header[data-nav-layout=desktop] .header-inner .staff-login-desktop{position:static;display:flex;padding:10px;min-height:44px;font-size:12px;gap:6px;border:1px solid #b3955880;border-radius:3px;background:#faf9f5;flex-shrink:0}
+.v2 header[data-nav-layout=desktop] .staff-login-desktop svg{width:16px;height:16px}
+.v2 header[data-nav-layout=mobile] .header-inner nav{display:none;position:absolute;left:0;right:0;top:100%;background:#f8f8f6;padding:18px 4% 25px;box-shadow:0 12px 25px #11151918;flex-direction:column;align-items:stretch;gap:0;max-height:calc(100dvh - 82px);overflow:auto}
+.v2 header[data-nav-layout=mobile] .header-inner nav.open{display:flex}
+.v2 header[data-nav-layout=mobile] .header-inner nav a{font-size:15px;padding:14px 0;border-bottom:1px solid #e3e5de}
+.v2 header[data-nav-layout=mobile] .menu-toggle{display:block;order:4}
+.v2 header[data-nav-layout=mobile] .header-inner .staff-login-desktop{display:none}
+.v2 header[data-nav-layout=mobile] .header-inner .staff-login-mobile{display:flex;justify-content:flex-start;font-size:15px}
+.v2 header[data-nav-layout=mobile] .header-phone{margin-left:auto}
+.v2 header.nav-fit-probe{position:fixed!important;left:-100000px!important;top:0!important;transform:none!important;width:max-content!important;visibility:hidden!important;pointer-events:none!important;height:auto!important}
+.v2 header.nav-fit-probe .header-inner{width:max-content!important;max-width:none!important;margin:0!important}

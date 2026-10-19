@@ -1,0 +1,18 @@
+/* V3.1: measured touch-target and legibility corrections. Header unchanged. */
+.ecosystem .gallery-controls button,.gallery-close,.lightbox-navigation button{min-width:44px;min-height:44px}
+.services-experience-image-note{font-size:10px;line-height:1.6}
+.services-experience-bottom div>span{max-width:240px}
+@media(max-width:700px){
+ .legal-v2>h1{font-size:clamp(23px,6.3vw,34px);line-height:1.16;overflow-wrap:normal;word-break:normal;hyphens:auto}
+ .v2 .carousel-arrow{width:44px;min-width:44px;height:44px}
+ .ecosystem .gallery-controls button{min-width:44px;min-height:44px}
+ .gallery-close,.lightbox-navigation button{min-width:44px;min-height:44px}
+ .v2 .previous{left:-17px}.v2 .next{right:-17px}
+ .living-view-controls button{min-width:44px;min-height:44px}
+}
+
+/* V4.0 dynamic manufacturer price list: readable source text at narrow widths. */
+.v40-price-table small{overflow-wrap:anywhere}.v40-price-table p{padding-block:14px;border-bottom:1px solid #d9dbd4}
+
+/* Dynamic titles must accommodate long German names without orphan letters. */
+.vehicle-summary h1{hyphens:auto;overflow-wrap:anywhere}.vehicle-summary.long-title h1{font-size:clamp(30px,3.2vw,56px);text-wrap:balance}

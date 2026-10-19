@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+.private/
+storage/
+backups/
+logs/

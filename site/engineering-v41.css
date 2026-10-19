@@ -1,0 +1,19 @@
+/* Engineering 2.3: one continuous explorer. */
+#living-engineering .living-explorer{--disassembly:0%;background:linear-gradient(120deg,#151a1de0,#0b1013d9);border:1px solid #d9ba7333;border-radius:3px;padding:12px 16px 13px;box-shadow:0 12px 32px #0002;color:#dedede}
+#living-engineering .living-explorer-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}
+#living-engineering .living-explorer-heading label{font-size:13px;letter-spacing:.02em;color:#ecd59d}
+#living-engineering .living-tools{display:flex;gap:4px}
+#living-engineering .living-tools button{width:32px;min-height:30px;padding:0;background:none;border:1px solid #bfa56a38;color:#d9c590;font-size:16px;border-radius:2px;cursor:pointer}
+#living-engineering .living-tools button:hover{background:#d9ba731c;border-color:#d9ba73}#living-engineering button:focus-visible,#living-engineering input:focus-visible{outline:2px solid #e0c581;outline-offset:4px}
+#living-engineering [data-disassembly]{display:block;appearance:none;-webkit-appearance:none;width:100%;height:3px;margin:14px 0 13px;background:linear-gradient(to right,#dec47d 0%,#dec47d var(--disassembly),#55534b var(--disassembly),#55534b 100%);border:0;border-radius:2px;cursor:pointer;touch-action:pan-y}
+#living-engineering [data-disassembly]::-webkit-slider-thumb{-webkit-appearance:none;width:15px;height:15px;border-radius:50%;border:2px solid #f4de9e;background:#c4a45c;box-shadow:0 0 12px #dfbd6355}
+#living-engineering [data-disassembly]::-moz-range-thumb{width:12px;height:12px;border-radius:50%;border:2px solid #f4de9e;background:#c4a45c;box-shadow:0 0 12px #dfbd6355}
+#living-engineering .living-range-labels{display:flex;justify-content:space-between;gap:8px;font-size:10px;color:#c2c1ba}#living-engineering .living-range-labels output{font-variant-numeric:tabular-nums;color:#ddc78d}
+#living-engineering .living-safety{font-size:9px;line-height:1.5;color:#aaa69b;margin:4px 0 0;text-align:center}
+#living-engineering .living-stage{aspect-ratio:1/1.12;min-height:480px}#living-engineering .living-visual>[data-engine-status]{margin:9px 0 3px;color:#b9b9b2}
+@media(max-width:767px){#living-engineering .living-stage{min-height:350px;aspect-ratio:1/1.2}#living-engineering .living-explorer{padding:10px 12px 12px}#living-engineering .living-tools button{min-height:36px;width:36px}#living-engineering [data-disassembly]{margin:16px 0 18px}#living-engineering .living-explorer-heading label{font-size:12px}#living-engineering .living-safety{font-size:9px}}
+/* Thin visible track with a generous pointer target. */
+#living-engineering input[data-disassembly]{height:24px;min-height:24px;max-height:24px;padding:0;margin:2px 0 4px;background:transparent;box-shadow:none}
+#living-engineering [data-disassembly]::-webkit-slider-runnable-track{height:3px;border:0;border-radius:3px;background:linear-gradient(to right,#dec47d 0%,#dec47d var(--disassembly),#55534b var(--disassembly),#55534b 100%);box-shadow:0 0 9px #dfbd6314}
+#living-engineering [data-disassembly]::-webkit-slider-thumb{margin-top:-6px}
+#living-engineering [data-disassembly]::-moz-range-track{height:3px;border:0;border-radius:3px;background:#55534b}#living-engineering [data-disassembly]::-moz-range-progress{height:3px;background:#dec47d}

@@ -1,0 +1,1 @@
+(()=>{document.querySelectorAll('a[href*="/admin"]').forEach(a=>a.href=new URL('demo-hinweise.html#staff',document.baseURI));const footer=document.querySelector('.footer-bottom p');if(footer){const s=document.createElement('span');s.textContent=' · Öffentliche Website-Demo · statischer Katalogstand 2026-10-19';footer.append(s)}})();

@@ -1,0 +1,3 @@
+#fahrzeuge .home-stock-status{border-left:2px solid #b39558;padding:12px 18px;margin:0 0 22px;line-height:1.7;font-size:14px}#fahrzeuge .home-stock-status a{display:inline-block;margin-left:10px;color:#8c6935;text-decoration:underline;text-underline-offset:4px}#fahrzeuge .home-carousel-label{font:24px Georgia,serif;margin:18px 0 24px}#fahrzeuge .vehicle-card[hidden]{display:none}@media(max-width:700px){#fahrzeuge .home-stock-status a{display:block;margin:8px 0 0}#fahrzeuge .home-stock-status{font-size:13px}#fahrzeuge .home-carousel-label{font-size:22px}}
+
+.catalog-description{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:13px;line-height:1.5;color:#707580}
